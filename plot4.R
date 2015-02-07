@@ -70,7 +70,7 @@ lines(subset_Data$Sub_metering_3 ~ as.numeric(subset_Data$datetime), col = "blue
 axis(1, at = c(min(as.numeric(subset_Data$datetime)), median(as.numeric(subset_Data$datetime)),
                max(as.numeric(subset_Data$datetime))),
      labels = c("Thu", "Fri", "Sat"), cex.axis = 0.8)
-legend("topright", lty = 1, cex = 0.5, bty = "n", col = c("black", "red", "blue"), 
+legend("topright", border = "none", lty = 1, cex = 0.5, bty = "n", col = c("black", "red", "blue"), 
        legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
 
