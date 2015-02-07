@@ -16,7 +16,7 @@ one household with a one-minute sampling rate over a period of almost
 are available.
 
 
-The following descriptions of the 9 variables in the dataset are taken
+The 9 variables in the dataset are taken
 from
 the <a href="https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption">UCI
 web site</a>:
@@ -33,13 +33,21 @@ web site</a>:
 <li><b>Sub_metering_3</b>: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.</li>
 </ol>
 
+## R Code Files
+* plot1.R - Create plot1.png
+* plot2.R - Create plot2.png
+* plot3.R - Create plot3.png
+* plot4.R - Create plot4.png
+
+## Output .png Files
+* plot1.png - file output by the plot1.R script
+* plot2.png - file output by the plot2.R script
+* plot3.png - file output by the plot3.R script
+* plot4.png - file output by the plot4.R script
+
 ## Loading the data
 
-
-
-
-
-When loading the dataset into R, please consider the following:
+Loading the Data:
 
 * The dataset has 2,075,259 rows and 9 columns. First
 calculate a rough estimate of how much memory the dataset will require
@@ -47,13 +55,7 @@ in memory before reading into R. Make sure your computer has enough
 memory (most modern computers should be fine).
 
 * We will only be using data from the dates 2007-02-01 and
-2007-02-02. One alternative is to read the data from just those dates
-rather than reading in the entire dataset and subsetting to those
-dates.
-
-* You may find it useful to convert the Date and Time variables to
-Date/Time classes in R using the `strptime()` and `as.Date()`
-functions.
+2007-02-02. 
 
 * Note that in this dataset missing values are coded as `?`.
 
@@ -61,54 +63,14 @@ functions.
 ## Making Plots
 
 Our overall goal here is simply to examine how household energy usage
-varies over a 2-day period in February, 2007. Your task is to
-reconstruct the following plots below, all of which were constructed
-using the base plotting system.
+varies over a 2-day period in February, 2007. Four plots are constructed
+for various situations. 
 
-First you will need to fork and clone the following GitHub repository:
+
+## The original repository:
+This repository is a fork and of the following GitHub repository:
 [https://github.com/rdpeng/ExData_Plotting1](https://github.com/rdpeng/ExData_Plotting1)
 
 
-For each plot you should
 
-* Construct the plot and save it to a PNG file with a width of 480
-pixels and a height of 480 pixels.
-
-* Name each of the plot files as `plot1.png`, `plot2.png`, etc.
-
-* Create a separate R code file (`plot1.R`, `plot2.R`, etc.) that
-constructs the corresponding plot, i.e. code in `plot1.R` constructs
-the `plot1.png` plot. Your code file **should include code for reading
-the data** so that the plot can be fully reproduced. You should also
-include the code that creates the PNG file.
-
-* Add the PNG file and R code file to your git repository
-
-When you are finished with the assignment, push your git repository to
-GitHub so that the GitHub version of your repository is up to
-date. There should be four PNG files and four R code files.
-
-
-The four plots that you will need to construct are shown below. 
-
-
-### Plot 1
-
-
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
-
-
-### Plot 2
-
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
-
-
-### Plot 3
-
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
-
-
-### Plot 4
-
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
