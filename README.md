@@ -33,6 +33,11 @@ web site</a>:
 <li><b>Sub_metering_3</b>: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.</li>
 </ol>
 
+## Instructions to Run:
+* adjust the set workign directory line in each code file to reflect your desired working directory. 
+* source the code into your chosen R development environment.
+* when completed, each script will output a .png file.  
+
 ## R Code Files
 * plot1.R - Create plot1.png
 * plot2.R - Create plot2.png
