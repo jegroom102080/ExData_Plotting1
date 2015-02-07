@@ -34,7 +34,7 @@ web site</a>:
 </ol>
 
 ## Instructions to Run:
-* adjust the set workign directory line in each code file to reflect your desired working directory. 
+* adjust the set working directory line in each code file to reflect your desired working directory. 
 * source the code into your chosen R development environment.
 * when completed, each script will output a .png file.  
 
